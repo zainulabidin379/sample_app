@@ -80,7 +80,7 @@ class AddInformationScreen extends StatelessWidget {
                     textInputAction: TextInputAction.next,
                     validator: FieldValidator.required(message: "*Required"),
                     isRequired: true,
-                    label: "Full Name"),
+                    label: "Bio"),
 
                 // Gender
                 CustomDropDownButton(

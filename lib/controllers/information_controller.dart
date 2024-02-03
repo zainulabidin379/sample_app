@@ -6,17 +6,11 @@ class InformationController extends GetxController {
 
   var name = TextEditingController().obs;
   var bio = TextEditingController().obs;
-  var gender = TextEditingController().obs;
-  var dob = TextEditingController().obs;
-  var lives = TextEditingController().obs;
 
   @override
   void dispose() {
     name.value.dispose();
     bio.value.dispose();
-    gender.value.dispose();
-    dob.value.dispose();
-    lives.value.dispose();
     super.dispose();
   }
 
