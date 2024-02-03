@@ -11,6 +11,9 @@ import 'package:sample_app/widgets/custom_elevated_button.dart';
 import 'package:sample_app/widgets/custom_text_field.dart';
 import 'package:the_validator/the_validator.dart';
 
+// **Extensions_kit is my own dart package on pub.dev you can check it out, It contains extensions and methods to reduce boilerplate code, you will see alot of extensions and methods used here are from this package.
+// https://pub.dev/packages/extensions_kit
+
 class AddInformationScreen extends StatelessWidget {
   const AddInformationScreen({super.key});
 
